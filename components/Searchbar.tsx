@@ -42,9 +42,9 @@ const Searchbar = () => {
     }
 
     // Generate the new pathname with the updated search parameters
-    const newPathname = `${window.location.pathname}?${searchParams.toString()}`;
+    const newPathName = `${window.location.pathname}?${searchParams.toString()}`;
 
-    router.push(newPathname, {scroll: false} );
+    router.push(newPathName, {scroll: false} );
   };
   return (
     <form className="searchbar" onSubmit={handleSearch}>
