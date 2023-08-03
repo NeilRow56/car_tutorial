@@ -8,6 +8,7 @@ import SearchManufacturer from "./SearchManufacturer";
 import CarCard from "./CarCard";
 import CarDetails from "./CarDetails";
 import SearchButton from "./SearchButton";
+import Showmore from "./Showmore";
 
 
 export {
@@ -20,5 +21,6 @@ export {
     SearchManufacturer,
     CarCard,
     CarDetails,
-    SearchButton
+    SearchButton,
+    Showmore
 }
